@@ -2,19 +2,32 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #0a0a0a;
-  --bg-elevated: #111111;
-  --surface: #161616;
-  --border: #222222;
-  --muted: #6b6b6b;
-  --foreground: #e5e5e5;
-  --foreground-bright: #fafafa;
-  --purple: #a855f7;
-  --purple-dim: #7c3aed;
-  --purple-glow: rgba(168, 85, 247, 0.35);
-  --red: #ef4444;
-  --red-dim: #dc2626;
-  --red-glow: rgba(239, 68, 68, 0.25);
+  /* Core dark theme */
+  --bg: #05060a; /* near-black */
+  --bg-elevated: #1c3f60; /* deep navy (#1c3f60) */
+  --surface: #2f3b69; /* indigo surface (#2f3b69) */
+  --border: #1c3f60; /* navy border */
+
+  /* Text & muted tones */
+  --muted: #8a7a7a; /* warm muted (#5c4e4e) CHANGED FROM ORIGINAL:#5c4e4e to #8a7a7a*/
+  --foreground: #e3dddc; /* main text (#e3dddc) */
+  --foreground-bright: #ffffff;
+
+  /* Accent system built from provided lighter tones */
+  --accent: #3e829a; /* primary accent (#3e829a) */
+  --accent-soft: #2f3b69;
+  --accent-secondary: #5c4e4e;
+  --accent-glow: rgba(62, 130, 154, 0.35);
+  --red-progress: #ca291e;
+
+  /* Legacy aliases used by components */
+  --purple: var(--accent);
+  --purple-dim: var(--accent-soft);
+  --purple-glow: var(--accent-glow);
+  --red: var(--accent-secondary);
+  --red-dim: #3b2b2b;
+  --red-glow: rgba(92, 78, 78, 0.25);
+
   --font-heading: 'Syne', system-ui, sans-serif;
   --font-body: 'DM Sans', system-ui, sans-serif;
 }
@@ -27,6 +40,8 @@
   --color-muted: var(--muted);
   --color-foreground: var(--foreground);
   --color-foreground-bright: var(--foreground-bright);
+  --color-accent: var(--accent);
+  --color-accent-secondary: var(--accent-secondary);
   --color-purple: var(--purple);
   --color-purple-dim: var(--purple-dim);
   --color-red: var(--red);

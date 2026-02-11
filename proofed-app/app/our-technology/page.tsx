@@ -5,23 +5,23 @@ export const metadata = {
 
 const techItems = [
   {
-    title: "Performance first",
+    title: "Fast",
     description:
-      "Every interaction is optimized for speed. We use the latest runtimes and minimal JavaScript so your experience stays smooth under load.",
+      "Get instant results displayed right in front of you or sent to your phone.",
     highlight: "var(--purple)",
   },
   {
-    title: "Scalable infrastructure",
+    title: "Reliable",
     description:
-      "Built to handle spikes—whether it's a launch night or a global rollout. Our systems scale without breaking a sweat.",
-    highlight: "var(--red)",
-  },
-  {
-    title: "Night-ready design",
-    description:
-      "Dark themes, reduced motion options, and accessibility built in. We design for real environments and real users.",
-    highlight: "var(--purple)",
-  },
+      "Our state of the art infrared mass spectroscopy sensors can detect over XXX substances with XX% accuracy.",
+      highlight: "var(--red)",
+    },
+    {
+      title: "Accessible",
+      description:
+      "Available where you need it, when you need it. Proofed stations can be easily deployed to festivals, bars, clubs, and any other venue needed.",
+      highlight: "var(--purple)",
+    },
 ];
 
 export default function OurTechnologyPage() {
@@ -33,12 +33,11 @@ export default function OurTechnologyPage() {
             Our Technology
           </p>
           <h1 className="font-heading max-w-3xl text-4xl font-bold leading-tight tracking-tight text-[var(--foreground-bright)] sm:text-5xl md:text-6xl">
-            Built for the{" "}
-            <span className="text-[var(--purple)]">edge</span> of night.
+          <span className="text-[var(--purple)]">Revolutionary</span> detection{<br />}at your{" "}
+            <span className="text-[var(--red)]">fingertips</span>.
           </h1>
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-[var(--muted)]">
-            We use modern stacks and proven patterns so our products are fast,
-            reliable, and a joy to use—even at 3 AM.
+            We use the latest infrared spectroscopy technologies and deconvolution algorithms to ensure that you are getting results that you can trust.
           </p>
         </section>
 
@@ -70,7 +69,7 @@ export default function OurTechnologyPage() {
             Want to learn more?
           </h2>
           <a href="../contact">
-          <p className="mt-4 text-[var(--muted)]">
+          <p className="mt-4 w-100 text-[var(--muted)]">
             Send us a message!
           </p>
           </a>

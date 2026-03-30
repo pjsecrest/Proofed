@@ -40,8 +40,8 @@ export default function AboutPage() {
                 accent: "var(--red)",
               },
               {
-                title: "Numbah 3",
-                desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                title: "Empowerment",
+                desc: "We ",
                 accent: "var(--purple)",
               },
             ].map((item, i) => (

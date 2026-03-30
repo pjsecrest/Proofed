@@ -1,6 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+/proofed-app/node_modules
+/proofed-app/.next
 /node_modules
 /.pnp
 .pnp.*

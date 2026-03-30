@@ -26,7 +26,7 @@ export default function RootLayout({
                 <p className="font-bold text-[var(--foreground)]">Join our mailing list</p>
                 <p className="mt-1 text-sm text-[var(--muted)]">Stay updated on our latest developments.</p>
 
-                <form className="mt-4 flex flex-col gap-3 sm:flex-row sm:max-w-md">
+                <form action="/contact" className="mt-4 flex flex-col gap-3 sm:flex-row sm:max-w-md">
                   <input
                     type="email"
                     placeholder="Enter your email"
@@ -42,29 +42,29 @@ export default function RootLayout({
               </div>
 
               {/* Links Section */}
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-col gap-3 items-end">
                 <p className="font-bold text-[var(--foreground)]">Navigate</p>
                 <a
                   href="/"
-                  className="text-[var(--muted)] underline-offset-2 hover:underline"
+                  className="text-[var(--muted)] underline-offset-2 hover:underline w-fit"
                 >
                   Home
                 </a>
                 <a
                   href="/about"
-                  className="text-[var(--muted)] underline-offset-2 hover:underline"
+                  className="text-[var(--muted)] underline-offset-2 hover:underline w-fit"
                 >
                   About Us
                 </a>
                 <a
                   href="/our-technology"
-                  className="text-[var(--muted)] underline-offset-2 hover:underline"
+                  className="text-[var(--muted)] underline-offset-2 hover:underline w-fit"
                 >
                   Our Technology
                 </a>
                 <a
                   href="/contact"
-                  className="text-[var(--muted)] underline-offset-2 hover:underline"
+                  className="text-[var(--muted)] underline-offset-2 hover:underline w-fit"
                 >
                   Contact Us
                 </a>

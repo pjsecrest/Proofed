@@ -76,26 +76,26 @@ export default function AboutPage() {
               {
                 name: "Alana Palter",
                 role: "Founder and CEO",
-                bio: "Short bio goes here. A sentence or two about background and what they bring to Proofed.",
-                image: "https://www.welshmountainzoo.org/wp-content/uploads/2025/04/WelshMountainGoat-image1-1024x1024.jpg",
-              },
-              {
-                name: "Ryan Metcalf",
-                role: "Chief Engineer",
-                bio: "Short bio goes here. A sentence or two about background and what they bring to Proofed.",
-                image: "https://i.ytimg.com/vi/leMfD_OHBog/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLARx82UkBfI3Puu1ZxL2NW7qTKecg",
+                bio: "After having her drink spiked while studying abroad at 21, Alana turned a personal trauma into a mission. A University of Colorado Boulder student with a background in market research and data analysis, she leads Proofed's strategy, market development, and investor relations.",
+                image: "/headshots/alana_headshot.png",
               },
               {
                 name: "Parker Secrest",
                 role: "CTO",
-                bio: "Short bio goes here. A sentence or two about background and what they bring to Proofed.",
-                image: "https://images.squarespace-cdn.com/content/v1/62da63f9ec4d5d07d12a1056/bb963dc5-8e82-41a6-af98-ab4b26c5c289/20220518154718_IMG_5042.jpg",
+                bio: "A Computer Science student at CU Boulder, Parker brings experience in software engineering, AI, and early-stage startups — including work on AI vision systems for NASA's Jet Propulsion Laboratory. Having close friends affected by drink spiking, he leads the technical development of Proofed's spectroscopy-based detection platform.",
+                image: "/headshots/parker_headshot.png",
               },
               {
                 name: "Tressa Murphy",
                 role: "CMO",
-                bio: "Short bio goes here. A sentence or two about background and what they bring to Proofed.",
-                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREcSVma2cLt8f3dWCvk-8IqAne9G9efSXH_A&s",
+                bio: "A Marketing and Strategy & Entrepreneurship student at CU Boulder, Tressa brings hands-on experience in brand engagement, consumer communication, and creative strategy. She leads Proofed's marketing efforts with a deep personal commitment to consumer safety and trust.",
+                image: "/headshots/tressa_headshot.png",
+              },
+              {
+                name: "Ryan Metcalf",
+                role: "Chief Engineer",
+                bio: "An Aerospace Engineering Sciences student at CU Boulder, Ryan has a strong background in systems engineering and propulsion. He leads the development of Proofed's first functional prototype, a Near-Infrared spectroscopy device designed to detect drink tampering with precision and reliability.",
+                image: "/headshots/ryan_headshot.png",
               },
             ].map((member, i) => (
               <li
